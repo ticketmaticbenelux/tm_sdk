@@ -4,7 +4,9 @@
   "description": "Ticketmatic SDK",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "postinstall": "husky install",
+    "prepare": "husky install"
   },
   "keywords": [
     "Ticketmatic"
@@ -16,5 +18,10 @@
     "node-env-file": "^0.1.8",
     "ramda": "^0.27.1",
     "tm_api": "github:ticketmaticbenelux/tm_api"
+  },
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "jest-when": "^3.3.1"
   }
 }
