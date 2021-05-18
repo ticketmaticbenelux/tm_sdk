@@ -1,11 +1,13 @@
 {
   "name": "tm_sdk",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "Ticketmatic SDK",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "postinstall": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable",
     "prepare": "husky install"
   },
   "keywords": [
@@ -23,6 +25,7 @@
     "eslint": "^7.26.0",
     "husky": "^6.0.0",
     "jest": "^26.6.3",
-    "jest-when": "^3.3.1"
+    "jest-when": "^3.3.1",
+    "pinst": "^2.1.6"
   }
 }
