@@ -1,12 +1,11 @@
 {
   "name": "tm_sdk",
-  "version": "0.0.20",
+  "version": "0.0.24",
   "description": "Ticketmatic SDK",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "postinstall": "husky install",
-    "prepare": "husky install"
+    "_postinstall": "husky install"
   },
   "keywords": [
     "Ticketmatic"
