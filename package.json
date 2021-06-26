@@ -1,6 +1,6 @@
 {
   "name": "tm_sdk",
-  "version": "0.0.38",
+  "version": "0.0.39",
   "description": "Ticketmatic SDK",
   "main": "index.js",
   "scripts": {
