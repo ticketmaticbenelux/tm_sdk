@@ -13,6 +13,7 @@
   "author": "Ticketmatic",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.7.2",
     "moment": "^2.29.1",
     "node-env-file": "^0.1.8",
     "ramda": "^0.27.1",
