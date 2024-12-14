@@ -17,7 +17,7 @@
     "moment": "^2.29.1",
     "node-env-file": "^0.1.8",
     "ramda": "^0.27.1",
-    "tm_api": "github:ticketmaticbenelux/tm_api"
+    "tm_api": "github:ticketmaticbenelux/tm_api#e0bdf7fe194d20ae11b62e5b6cdd119f358ed3b8"
   },
   "devDependencies": {
     "eslint": "^7.26.0",
